@@ -1,0 +1,4 @@
+src/credentials.py
+dataset
+qore_sdk*.whl
+.ipynb_checkpoints

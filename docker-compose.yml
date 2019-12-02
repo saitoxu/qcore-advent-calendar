@@ -1,0 +1,10 @@
+version: '3'
+services:
+  qcore:
+    build: .
+    restart: always
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/var/lib/qcore
+    command: jupyter notebook --NotebookApp.token=''
