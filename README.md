@@ -1,4 +1,4 @@
-# QCore Adbent Calendar
+# QCore Advent Calendar
 
 https://github.com/qcore-info/advent-calendar-2019
 
