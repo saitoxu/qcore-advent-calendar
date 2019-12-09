@@ -14,6 +14,7 @@ ADD ./requirements.txt .
 ADD ./qore_sdk-0.1.0-cp37-cp37m-linux_x86_64.whl .
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install scipy
+RUN pip install xgboost
 RUN pip install qore_sdk-0.1.0-cp37-cp37m-linux_x86_64.whl
 
 COPY . /var/lib/qcore
